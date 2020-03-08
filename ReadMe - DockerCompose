@@ -1,0 +1,12 @@
+ install docker compose on linux machine : 
+ 1)  curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+ 2)  chmod +x /usr/local/bin/docker-compose
+ 3) check if iw works : docker-compose --version , output = docker-compose version 1.25.0, build 0a186604.
+ 
+ run docker compose file:
+ 1)copy the docker-compose file to specified directory.
+ 2)cd to directory
+ 3)docker-compose up -d
+ 4) docker -ps (check if your container is running)
+
+
